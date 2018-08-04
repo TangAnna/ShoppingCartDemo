@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y120"
+    android:layout_alignParentBottom="true"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/color_a5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_show_shoppingCart"
+            android:layout_width="@dimen/x140"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_shoppingCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/show_shopping_cart"/>
+
+            <TextView
+                android:id="@+id/tv_mercheat_count"
+                android:layout_width="@dimen/x30"
+                android:layout_height="@dimen/y30"
+                android:layout_marginTop="@dimen/y30"
+                android:layout_toRightOf="@+id/iv_shoppingCart"
+                android:background="@drawable/shape_shopping_cart_count"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/x20"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_totalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.00"
+                android:textColor="@color/color_a5"
+                android:textSize="@dimen/x32"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="总价"
+                android:textColor="@color/color_38"
+                android:textSize="@dimen/x28"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_settlement"
+            android:layout_width="@dimen/x376"
+            android:layout_height="match_parent"
+            android:background="@color/color_a5"
+            android:gravity="center"
+            android:text="去结算"
+            android:textColor="#fff"
+            android:textSize="@dimen/x36"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

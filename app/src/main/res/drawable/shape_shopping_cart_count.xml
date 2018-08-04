@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--黑色小圆点-->
+    <corners android:radius="@dimen/y400"/>
+    <!--设置button里面的颜色-->
+    <solid android:color="@color/color_38"/>
+</shape>

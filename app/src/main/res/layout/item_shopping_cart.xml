@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/y80"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/x40"
+              android:paddingRight="@dimen/x40">
+
+    <TextView
+        android:id="@+id/tv_item_shopping_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical"
+        android:text="披萨"
+        android:textColor="@color/color_38"
+        android:textSize="@dimen/x24"/>
+
+    <TextView
+        android:id="@+id/tv_item_shopping_price"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/color_38"
+        android:textSize="@dimen/x24"/>
+
+    <TextView
+        android:id="@+id/tv_item_shopping_count"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:text="￥30.00"
+        android:textColor="@color/color_38"
+        android:textSize="@dimen/x24"/>
+
+
+</LinearLayout>

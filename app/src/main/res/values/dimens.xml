@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="shopping_cart_width">@dimen/x58</dimen>
+    <dimen name="shopping_cart_height">@dimen/x58</dimen>
+</resources>
